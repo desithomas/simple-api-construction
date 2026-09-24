@@ -19,6 +19,7 @@
 url="https://data.cityofnewyork.us/resource/i296-73x5.json"
 
 
+
 //successful fetch; now allow user to select by borough: borough_name
 fetch(url)
 .then(res => res.json())
