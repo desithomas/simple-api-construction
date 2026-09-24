@@ -36,12 +36,3 @@ fetch(url)
 
 
 
-//test that the API works and returns data - API confirmed to work 
-const userBoroughInput = document.getElementById("userBoroughInput")
-
-fetch(url) 
-.then(res => res.json())
-.then(data => {
-    console.log(data.borough_name)
-})
-.catch(err => console.log(`Error: ${err}`))
